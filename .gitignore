@@ -1,0 +1,54 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test and coverage reports
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Data (opcional)
+data/raw/
+data/processed/
+
+# dbt
+dbt_packages/
+target/
+
+# Airflow
+airflow/logs/
+airflow/*.db
+
+# Local configs
+*.sqlite
+*.db
